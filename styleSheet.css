@@ -1,4 +1,71 @@
-h1 {
-    background-color: yellow;
-   
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:lightgrey;
+}
+.container{
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 45vh;
+
+}
+form {
+    margin: 2rem 0 1rem 0;
+}
+form select , input, button {
+    border: none;
+    width: 100%;
+    border: 20px;
+    outline: none;
+
+}
+#inp {
+    border: 2px solid lightgray;
+    height: 30px;
+    font-size: 1rem;
+    padding-left:0S.5rem;
+}
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.drop-down i {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.selectcont img {
+    max-width:30px;
+    margin: 2px;
+}
+.selectcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    border: 2px solid lightgray;
+}
+.selectcont select {
+    font-size:13px;
+    font-weight: bold;
+} 
+.message {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+#btn {
+    height: 30px;
+    background-color:rgb(186, 186, 240);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }
